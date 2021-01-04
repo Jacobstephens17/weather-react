@@ -1,0 +1,67 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+font-family: 'montseratt', sans-serif;
+
+}
+ 
+.app {
+  background-image: url('https://www.technocrazed.com/wp-content/uploads/2015/12/Earth-Wallpaper-129.jpg');
+  background-size:cover;
+  background-position: bottom;
+}
+
+main{
+  min-height:100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75),  #002080);
+}
+
+.searchBox {
+  display:block;
+  width: 100%;
+
+}
+
+.searchBar{
+  color:white;
+  
+}
+
+.locationBox .location {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  text-align:center;
+ 
+}
+
+.locationBox .date {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-align:center;
+
+}
+
+
+.weatherBox {
+  text-align:center;
+}
+
+.weatherBox .temp {
+  position:relative;
+  display: inline-block;
+  color:white;
+  padding: 15px 25px;
+  margin:10px;
+  background-color:black;
+  border-radius: 16px;
+}
+
+.weather{
+  color:white;
+}
